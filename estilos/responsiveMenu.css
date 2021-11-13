@@ -1,0 +1,77 @@
+.DesktopMenu li{
+    float: left;
+    margin: 0px 20px;
+    display: block; /* Es necesario que se comproten como cajas para poder darles margin y padding*/ 
+}
+
+.DesktopMenu li a{
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.DesktopMenu li a:hover{
+    color:#00f7ff;
+}
+
+.DesktopMenu .current{
+    color: #00f7ff;
+}
+
+.MovilMenu{
+    display: none;
+    margin-top: 10px;
+}
+
+.MovilMenu ul a{
+    color: white;
+    text-decoration: none;
+}
+
+.MovilMenu ul a li{
+    font-size: large;
+}
+
+.iconMenu{
+    display: none;
+    float: left;
+    margin-left: 5px;
+}
+
+.fa-bars, .ResponsiveSocial{
+    color: white;
+    font-size: 30px;
+    display: none;
+    margin-bottom: 10px;
+}
+
+.ResponsiveSocial{
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.ResponsiveSocial a{
+    padding: 0px 10px;
+    color: white
+}
+
+.ResponsiveSocial a:hover, .fa-bars:hover {
+    color: #03A6A6;
+}
+
+
+@media screen and (max-width: 1024px){
+    .DesktopMenu{
+        display: none;
+    }
+
+    .iconMenu, .ResponsiveSocial{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .iconMenu, .ResponsiveSocial{
+        font-size: 20px;
+    }
+}

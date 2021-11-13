@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cpu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<articulo>
+		<modelo>Kingston Fury 4GB DDR4</modelo>
+		<spec1>Frecuencia 3200MHz</spec1>
+		<spec2>NA</spec2>
+		<spec3>NA</spec3>
+		<spec4>NA</spec4>
+		<precio>4000</precio>
+		<imagen>imagenes/ram/4GB.webp</imagen>
+	</articulo>
+	<articulo>
+		<modelo>HyperX Fury RGB 8GB DDR4</modelo>
+		<spec1>Frecuencia 3200MHz</spec1>
+		<spec2>NA</spec2>
+		<spec3>NA</spec3>
+		<spec4>NA</spec4>
+		<precio>6800</precio>
+		<imagen>imagenes/ram/8GB.webp</imagen>
+	</articulo>
+</cpu>

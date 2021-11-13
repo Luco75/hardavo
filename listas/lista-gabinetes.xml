@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cpu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<articulo>
+		<modelo>Tecware Nexus C</modelo>
+		<spec1>Supports ATX / mATX / ITX motherboards</spec1>
+		<spec2>350mm Maximum GPU card length</spec2>
+		<spec3>Color: Blanco</spec3>
+		<spec4>NA</spec4>
+		<precio>8700</precio>
+		<imagen>imagenes/gabinetes/tecware.webp</imagen>
+	</articulo>
+	<articulo>
+		<modelo>Corsair 570x</modelo>
+		<spec1>Supports ATX / mATX / ITX motherboards</spec1>
+		<spec2>370mm Maximum GPU card length</spec2>
+		<spec3>Color: Negro</spec3>
+		<spec4>NA</spec4>
+		<precio>25000</precio>
+		<imagen>imagenes/gabinetes/corsair.webp</imagen>
+	</articulo>
+</cpu>

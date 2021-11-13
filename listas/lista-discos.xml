@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cpu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<articulo>
+		<modelo>WD 1TB Blue</modelo>
+		<spec1>Tipo: HDD</spec1>
+		<spec2>Capacidad: 1 TB</spec2>
+		<spec3>Interfaz: SATA</spec3>
+		<spec4>NA</spec4>
+		<precio>5100</precio>
+		<imagen>imagenes/discos/HDD.webp</imagen>
+	</articulo>
+	<articulo>
+		<modelo>WD 250GB Blue</modelo>
+		<spec1>Tipo: SSD</spec1>
+		<spec2>Capacidad: 250 GB</spec2>
+		<spec3>Interfaz: SATA</spec3>
+		<spec4>NA</spec4>
+		<precio>6400</precio>
+		<imagen>imagenes/discos/SSD.webp</imagen>
+	</articulo>
+</cpu>

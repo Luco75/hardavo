@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cpu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<articulo>
+		<modelo>Corsair CV550W</modelo>
+		<spec1>Capacidad: 550W</spec1>
+		<spec2>80+ Bronze</spec2>
+		<spec3>Modular: NO</spec3>
+		<spec4>NA</spec4>
+		<precio>7500</precio>
+		<imagen>imagenes/fuentes/550W.webp</imagen>
+	</articulo>
+	<articulo>
+		<modelo>Corsair CX750F</modelo>
+		<spec1>Capacidad: 750W</spec1>
+		<spec2>80+ Bronze White</spec2>
+		<spec3>Modular: SI</spec3>
+		<spec4>NA</spec4>
+		<precio>17000</precio>
+		<imagen>imagenes/fuentes/750W.webp</imagen>
+	</articulo>
+</cpu>

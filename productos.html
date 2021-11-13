@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=5.0">
+    <title>Hardravo | Productos</title>
+    <meta name="description" content="Microprocesadores, Tarjetas Gráficas, Motherboards, Memorias, Fuentes, Discos, Gabinetes.">
+    <link rel="shortcut icon" href="imagenes/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/index.css">
+    <link rel="stylesheet" href="estilos/productos.css">
+    <link rel="stylesheet" href="estilos/responsiveMenu.css">
+    <link href='https://fonts.googleapis.com/css?family=Allerta' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/cb2d8e21fd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <div class = global>
+
+        <header>
+            <div class = logozone>
+                <a class ="current" href="index.html"><img src="imagenes/logoHARDRAVO.png" alt="logotipo-Hardravo" title="Lencería Yennefer"></a>
+            </div>
+            
+            <div class = "iconMenu" >
+                <a onclick = "Desplegar()"><i class="fa fa-bars" ></i></a>
+            </div>
+
+            <nav> 
+                <ul class = "DesktopMenu">
+                    <li><a href = "productos.html" class = "current">Productos</a></li>
+                    <li><a href = "index.html#aside">Contacto</a></li>
+                    
+                </ul>
+            </nav>
+
+            <nav class = "MovilMenu" id = "MovilMenu">
+                <ul>
+                    <a href = "productos.html" class = "current"><li>Productos</li></a>
+                    <a href = "index.html#aside"><li>Contacto</li></a>
+                </ul>
+            </nav>
+        </header>
+    
+        <section class="wrapper">
+
+            <section class = "lateralmenu" id = "lateralmenu">
+                <ul>
+                    <li id = "cpu-button">Microprocesadores</li>
+                    <li id = "gpu-button">Tarjetas Gráficas</li>
+                    <li id = "mb-button">Motherboards</li>
+                    <li id = "ram-button">Memorias RAM</li>
+                    <li id = "fuentes-button">Fuentes</li>
+                    <li id = "discos-button">Discos Rígidos</li>
+                    <li id = "gabinetes-button">Gabinetes</li>
+
+                </ul>
+            </section>
+
+            <section class = "categorias" id = "categorias">
+                <div class= "boxzoom"> 
+                    <img  id = "cpu" src="imagenes/categorias/cpus.png" alt="microprocesadores" title="microprocesadores"  loading = "lazy">
+                </div>
+                <div class= "boxzoom"> 
+                    <img  id = "gpu" src="imagenes/categorias/gpus.png" alt="microprocesadores" title="microprocesadores"  loading = "lazy">
+                </div>
+                <div class= "boxzoom"> 
+                    <img  id = "mb" src="imagenes/categorias/motherboards.png" alt="microprocesadores" title="microprocesadores"  loading = "lazy">
+                </div>
+                <div class= "boxzoom"> 
+                    <img  id = "ram" src="imagenes/categorias/rams.png" alt="microprocesadores" title="microprocesadores"  loading = "lazy">
+                </div>
+                <div class= "boxzoom"> 
+                    <img  id = "fuentes" src="imagenes/categorias/fuentes.png" alt="microprocesadores" title="microprocesadores"  loading = "lazy">
+                </div>
+                <div class= "boxzoom"> 
+                    <img  id = "discos" src="imagenes/categorias/discos.png" alt="microprocesadores" title="microprocesadores"  loading = "lazy">
+                </div>
+                <div class= "boxzoom"> 
+                    <img  id = "gabinetes" src="imagenes/categorias/gabinetes.png" alt="microprocesadores" title="microprocesadores"  loading = "lazy">
+                </div>   
+            </section>
+
+            <div class = "principal" id = "principal">
+                
+                <!--ACA SE GENERAN LOS DISTINTOS ARTICULOS-->
+
+            </div>
+            
+
+            <div class = "modal" id = "myModal">
+                <span class = "close">&times;</span>
+                <img class = "modal-img" id = "modal-img" src="">
+                <div class= "modal-text" id = "modal-text"></div>
+            </div>
+
+        </section>
+
+        <footer id = "footer">
+            <p>Hardravo 2020 | Todos Los Derechos Reservados.</p>
+            
+            <div class="autor">
+                <p> <span>diseño web: Luco75</span> </p>
+            </div>
+
+            <div class="leyenda">
+                <p> Hardravo no es una tienda real. Este sitio web es solo una demo tecnica desarrollada por Lucas Santiago.</span> </p>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="js/main.js"></script>
+    <script src="js/ResponsiveMenu.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cpu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<articulo>
+		<modelo>EVGA GTX 1650 SC ULTRA GAMING</modelo>
+		<spec1>Core Clock 1860 MHz</spec1>
+		<spec2>CUDA Cores 896</spec2>
+		<spec3>VRAM 4 GB</spec3>
+		<spec4>NA</spec4>
+		<precio>100000</precio>
+		<imagen>imagenes/gpu/1650.webp</imagen>
+	</articulo>
+	<articulo>
+		<modelo>EVGA GeForce RTX 2060 XC GAMING</modelo>
+		<spec1>Core Clock 1755 MHz</spec1>
+		<spec2>CUDA Cores 1920</spec2>
+		<spec3>VRAM 6GB</spec3>
+		<spec4>NA</spec4>
+		<precio>150000</precio>
+		<imagen>imagenes/gpu/2060.webp</imagen>
+	</articulo>
+	<articulo>
+		<modelo>Gigabyte Aorus Geforce RTX 3080 XTREME</modelo>
+		<spec1>Core Clock 1710 MHz</spec1>
+		<spec2>CUDA Cores 10240</spec2>
+		<spec3>VRAM 12 GB</spec3>
+		<spec4>NA</spec4>
+		<precio>425000</precio>
+		<imagen>imagenes/gpu/3080ti.webp</imagen>
+	</articulo>
+	<articulo>
+		<modelo>Gigabyte Aorus Elite RX6700XT</modelo>
+		<spec1>Core Clock 2622 MHz</spec1>
+		<spec2>Stream Processors 2560</spec2>
+		<spec3>VRAM 12 GB</spec3>
+		<spec4>NA</spec4>
+		<precio>200000</precio>
+		<imagen>imagenes/gpu/rx6700.webp</imagen>
+	</articulo>
+</cpu>

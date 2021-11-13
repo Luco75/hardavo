@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cpu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<articulo>
+		<modelo>Intel I3 10105F</modelo>
+		<spec1>4 núcleos, 8 subprocesos</spec1>
+		<spec2>Frecuencia base de 3,70 GHz. Frecuencia turbo de 4,40 GHz</spec2>
+		<spec3>6 MB de memoria caché</spec3>
+		<spec4>TDP 65 W</spec4>
+		<precio>15000</precio>
+		<imagen>imagenes/cpu/intelI3.webp</imagen>
+	</articulo>
+	<articulo>
+		<modelo>Intel I5 10600K</modelo>
+		<spec1>6 núcleos, 12 subprocesos</spec1>
+		<spec2>Frecuencia base de 4,10 GHz. Frecuencia turbo de 4,80 GHz</spec2>
+		<spec3>12 MB de memoria caché</spec3>
+		<spec4>TDP 125 W</spec4>
+		<precio>35000</precio>
+		<imagen>imagenes/cpu/intelI5.webp</imagen>
+	</articulo>
+	<articulo>
+		<modelo>Intel I7 11700K</modelo>
+		<spec1>8 núcleos, 16 subprocesos</spec1>
+		<spec2>Frecuencia base de 3,6 GHz. Frecuencia turbo de 5,00 GHz</spec2>
+		<spec3>16 MB de memoria caché</spec3>
+		<spec4>TDP 125 W</spec4>
+		<precio>55000</precio>
+		<imagen>imagenes/cpu/intelI7.webp</imagen>
+	</articulo>
+	<articulo>
+		<modelo>AMD Athlon 3000G Vega 3 AM4</modelo>
+		<spec1>2 núcleos, 4 subprocesos</spec1>
+		<spec2>Frecuencia base de 3,50 GHz</spec2>
+		<spec3>Graficos Raedon Vega 3 graphics</spec3>
+		<spec4>3 núcleos de GPU</spec4>
+		<precio>12500</precio>
+		<imagen>imagenes/cpu/amda4.webp</imagen>
+	</articulo>
+	<articulo>
+		<modelo>Amd Ryzen 5 5600G Vega 7 AM4</modelo>
+		<spec1>6 núcleos, 12 subprocesos</spec1>
+		<spec2>Frecuencia base de 3,90 GHz. Frecuencia turbo de 4,40 GHz&gt;</spec2>
+		<spec3>GPU de 7 núcleos</spec3>
+		<spec4>16 MB de memoria caché</spec4>
+		<precio>43500</precio>
+		<imagen>imagenes/cpu/ryzen5.webp</imagen>
+	</articulo>
+	<articulo>
+		<modelo>Amd Ryzen 7 5700G Vega 8 AM4</modelo>
+		<spec1>8 núcleos, 16 subprocesos</spec1>
+		<spec2>Frecuencia base de 3,80 GHz. Frecuencia turbo de 4,60 GHz&gt;</spec2>
+		<spec3>GPU de 8 núcleos</spec3>
+		<spec4>16 MB de memoria caché</spec4>
+		<precio>54000</precio>
+		<imagen>imagenes/cpu/ryzen7.webp</imagen>
+	</articulo>
+</cpu>

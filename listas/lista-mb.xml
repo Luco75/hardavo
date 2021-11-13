@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cpu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<articulo>
+		<modelo>Asus Prime Z490-P 1200</modelo>
+		<spec1>Supports 10th Gen Intel® Core™, Pentium® Gold and Celeron® Processors</spec1>
+		<spec2>4 x DIMM, Max. 128GB, DDR4</spec2>
+		<spec3>Socket 1200</spec3>
+		<spec4>NA</spec4>
+		<precio>35000</precio>
+		<imagen>imagenes/mb/mbINTEL.webp</imagen>
+	</articulo>
+	<articulo>
+		<modelo>Mother Gigabyte B550 Aorus Elite V2 AM4</modelo>
+		<spec1>Supports AMD Ryzen™ 5000 Series/ Ryzen 5000 G-Series/ 3rd Gen Ryzen™ and 3rd Gen Ryzen™ with Radeon™ Graphics Processors</spec1>
+		<spec2>Dual Channel ECC/ Non-ECC Unbuffered DDR4, 4 DIMMs</spec2>
+		<spec3>Socket AM4</spec3>
+		<spec4>NA</spec4>
+		<precio>25000</precio>
+		<imagen>imagenes/mb/mbAMD.webp</imagen>
+	</articulo>
+</cpu>
