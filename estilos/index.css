@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Allerta', serif;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -53,10 +54,6 @@ header nav ul{
     margin-top: 100px;
     margin-bottom: 100px;
     font-size: x-large;
-}
-
-.marcas{
-    padding-left: 5%;
 }
 
 .marcas img{
@@ -153,7 +150,7 @@ footer p span{
     }
 
     header nav{
-        background-color: #03A6A6;
+        background-color: #ff7b00;
         padding: 0px;
     }
 
@@ -167,7 +164,7 @@ footer p span{
     }
 
     header nav ul li:hover{
-        background-color: #038c8c;
+        background-color: #ff7b00;
     }
 
     .DesktopMenu{
@@ -208,15 +205,6 @@ footer p span{
         display: none;
     }
 
-
-    .fa-address-card{
-        font-size: 80px;
-    }
-
-    .marcas{
-        padding-left: 0%;
-    }
-
     .marcas img{
         width: 50px;
     }
@@ -235,22 +223,11 @@ footer p span{
         margin: 10px 10px;
     }
 
-    .pagos p, .envios p, .compras p{
-        margin-bottom: 10px;
-    }
-    
-    .moreinfo{
-        font-size: medium;
-    }
-
     footer{
         font-size: smaller;
     }
     footer p span{
         font-size: x-small;
-    }
-    .iconMenu, .ResponsiveSocial{
-        font-size: 20px;
     }
 
     .autor{
