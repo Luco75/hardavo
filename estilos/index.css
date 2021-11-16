@@ -41,7 +41,7 @@ header nav{
 
 header nav ul{
     list-style: none;
-    margin-left: 15%;
+    margin-left: 5%;
 }
 
 /*SECCION PRINCIPAL*/
@@ -56,14 +56,18 @@ header nav ul{
     font-size: x-large;
 }
 
+.marcas{
+    width: 70%;
+    margin: auto;
+}
+
 .marcas img{
     width: 200px;
 }
 
 .marcas div{
     float: left;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 60px;
     margin-bottom: 20px;
 }
 
@@ -128,6 +132,10 @@ footer p span{
 }
 
 @media screen and (max-width: 1366px){
+    .marcas{
+        width: 100%;
+    }
+
     header div img{
         margin-left: 6%;
     }
@@ -142,6 +150,11 @@ footer p span{
 }
 
 @media screen and (max-width: 1024px){
+
+    .marcas img{
+        width: 100px;
+    }
+
     header div img{
         float: none;
         display: block;
@@ -176,6 +189,13 @@ footer p span{
     }    
 }
 
+@media screen and (max-width: 768px){
+    .marcas{
+        width: 90%;
+    }
+
+}
+
 @media screen and (max-width: 450px){
     
     
@@ -195,6 +215,18 @@ footer p span{
         margin-bottom: 5px;
         margin-top: 5px;
         font-size: large;
+    }
+
+    .marcas{
+        width: 95%;
+    }
+
+    .marcas div{
+        margin-left: 20px ;
+    }
+
+    .marcas img{
+        width: 75px;
     }
 
     .contacto h2, .contacto p{

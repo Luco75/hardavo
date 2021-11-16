@@ -1,4 +1,9 @@
 /*CAJAS DE IMAGENES CON EFECTO ZOOM*/
+.categorias{
+    width: 70%;
+    margin: auto;
+}
+
 .boxzoom{
     margin-left: 20px;
 }
@@ -156,9 +161,13 @@ article{
 
 }
 
+footer{
+    display: none;
+}
+
 @media screen and (max-width: 1366px){
     .categorias{
-        margin-left: 11.5%;
+        width: 95%;
     }
 
     .modal-img{
@@ -167,7 +176,11 @@ article{
 }
 
 @media screen and (max-width: 1024px){
-    .categorias, .principal{
+    .categorias{
+        width: 95%;
+    }
+
+    .principal{
         margin-left: 15%;
     }
 
@@ -178,7 +191,7 @@ article{
 
 @media screen and (max-width: 768px){
     .categorias{
-        margin-left: 0%;
+        width: 95%;
     }
 
     .lateralmenu{
@@ -192,11 +205,7 @@ article{
         margin-left: 0%;
     }
 
-    .boxzoom, .boxzoom2{
-        float: none;
-        display: block;
-        margin: auto;
-    }
+    
     
     .boxzoom {
         margin-bottom: 30px;
@@ -212,6 +221,14 @@ article{
 }
 
 @media screen and (max-width: 450px){
+
+    
+    .boxzoom, .boxzoom2{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     .lateralmenu, .item article{
         font-size: smaller;

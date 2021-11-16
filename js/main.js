@@ -21,105 +21,90 @@ var gabinetesButton = document.getElementById("gabinetes-button");
 
 var none = "none";
 var block = "block";
-var turquise = "#ff7b00";
-var darkTurquise = "#737373";
+var orange = "#ff7b00";
+var gray = "#737373";
 
 cpu.onclick = function(){
   categorias.style.display = "none";
   menulateral.style.display = "block";
-  refresh(none, block, none, none, turquise, darkTurquise, darkTurquise, darkTurquise, darkTurquise, darkTurquise, darkTurquise);
+  refresh(none, block, none, none, orange, gray, gray, gray, gray, gray, gray);
   generar("cpu");
 }
 
 cpuButton.onclick = function(){
-  refresh(none, block, none, none, turquise, darkTurquise, darkTurquise, darkTurquise, darkTurquise, darkTurquise, darkTurquise);
-  //footer.style.display = "none";
-  //contacto.style.display = "none";
-  ///arrow.style.display = "none";
+  refresh(none, block, none, none, orange, gray, gray, gray, gray, gray, gray);
   generar("cpu");
 }
 
 gpu.onclick = function(){
   categorias.style.display = "none";
   menulateral.style.display = "block";
-  refresh(none, none, none, none, darkTurquise, turquise, darkTurquise, darkTurquise, darkTurquise, darkTurquise, darkTurquise);
+  refresh(none, none, none, none, gray, orange, gray, gray, gray, gray, gray);
   generar("gpu");
 }
 
 gpuButton.onclick = function(){
-  refresh(none, none, none, none, darkTurquise, turquise, darkTurquise, darkTurquise, darkTurquise, darkTurquise, darkTurquise);
+  refresh(none, none, none, none, gray, orange, gray, gray, gray, gray, gray);
   generar("gpu");
 }
 
 mb.onclick = function(){
   categorias.style.display = "none";
-  //masculinos.style.display = "block";
   menulateral.style.display = "block";
-  refresh(none, none, block, none, darkTurquise, darkTurquise, turquise, darkTurquise, darkTurquise, darkTurquise, darkTurquise);
-  //window.scrollTo(0, 0);
-  //window.scrollTo(0, 150);
+  refresh(none, none, block, none, gray, gray, orange, gray, gray, gray, gray);
   generar("mb");
 }
 
 mbButton.onclick = function(){
-  refresh(none, none, block, none, darkTurquise, darkTurquise, turquise, darkTurquise, darkTurquise, darkTurquise, darkTurquise);
-  //footer.style.display = "none";
-  //contacto.style.display = "none";
-  //arrow.style.display = "none";
+  refresh(none, none, block, none, gray, gray, orange, gray, gray, gray, gray);
   generar("mb");
 }
 
 ram.onclick = function(){
   categorias.style.display = "none";
-  //infantil.style.display = "block";
   menulateral.style.display = "block";
-  refresh(none, none, none, block, darkTurquise, darkTurquise, darkTurquise, turquise, darkTurquise, darkTurquise, darkTurquise);
-  //window.scrollTo(0, 0);
-  //window.scrollTo(0, 150);
+  refresh(none, none, none, block, gray, gray, gray, orange, gray, gray, gray);
   generar("ram");
 }
 
 ramButton.onclick = function(){
-  refresh(none, none, none, block, darkTurquise, darkTurquise, darkTurquise, turquise, darkTurquise, darkTurquise, darkTurquise);
-  //footer.style.display = "none";
-  //contacto.style.display = "none";
-  //arrow.style.display = "none";
+  refresh(none, none, none, block, gray, gray, gray, orange, gray, gray, gray);
   generar("ram");
 }
 
 fuentes.onclick = function(){
   categorias.style.display = "none";
   menulateral.style.display = "block";
-  refresh(none, none, none, none, darkTurquise, darkTurquise, darkTurquise, darkTurquise, turquise, darkTurquise, darkTurquise);
+  refresh(none, none, none, none, gray, gray, gray, gray, orange, gray, gray);
   generar("fuentes");
 }
 
 fuentesButton.onclick = function(){
-  refresh(none, none, none, none, darkTurquise, darkTurquise, darkTurquise, darkTurquise, turquise, darkTurquise, darkTurquise);
+  refresh(none, none, none, none, gray, gray, gray, gray, orange, gray, gray);
   generar("fuentes");
 }
 
 discos.onclick = function(){
   categorias.style.display = "none";
   menulateral.style.display = "block";
-  refresh(none, none, none, none, darkTurquise, darkTurquise, darkTurquise, darkTurquise, darkTurquise, turquise, darkTurquise);
+  refresh(none, none, none, none, gray, gray, gray, gray, gray, orange, gray);
   generar("discos");
 }
 
 discosButton.onclick = function(){
-  refresh(none, none, none, none, darkTurquise, darkTurquise, darkTurquise, darkTurquise, darkTurquise, turquise, darkTurquise);
+  refresh(none, none, none, none, gray, gray, gray, gray, gray, orange, gray);
   generar("discos");
 }
 
 gabinetes.onclick = function(){
   categorias.style.display = "none";
   menulateral.style.display = "block";
-  refresh(none, none, none, none, darkTurquise, darkTurquise, darkTurquise, darkTurquise, darkTurquise, darkTurquise, turquise);
+  refresh(none, none, none, none, gray, gray, gray, gray, gray, gray, orange);
   generar("gabinetes");
 }
 
 gabinetesButton.onclick = function(){
-  refresh(none, none, none, none, darkTurquise, darkTurquise, darkTurquise, darkTurquise, darkTurquise, darkTurquise, turquise);
+  refresh(none, none, none, none, gray, gray, gray, gray, gray, gray, orange);
   generar("gabinetes");
 }
 
@@ -180,13 +165,9 @@ function AbrirFichero(fichXML){
     } 
   }
 
-  function generar (marca) {
+  function generar (tipo) {
 
   footer.style.display = "block";
-  
-  //contacto.style.display = "block";
-
-  //arrow.style.display = "block";
 
   
 
@@ -194,14 +175,14 @@ function AbrirFichero(fichXML){
 
   var xmlname;
 
-  switch(marca){
-    case 'cpu': positionScreen(0, 600); xmlname = "listas/lista-cpu.xml"; cpuButton.style.backgroundColor = turquise; break;
-    case 'gpu': positionScreen(0, 600); xmlname = "listas/lista-gpu.xml"; gpuButton.style.backgroundColor = turquise; break;
-    case 'mb': positionScreen(0, 600); xmlname = "listas/lista-mb.xml"; mbButton.style.backgroundColor = turquise; break;
-    case 'ram': positionScreen(0, 600); xmlname = "listas/lista-ram.xml"; ramButton.style.backgroundColor = turquise; break;
-    case 'fuentes': positionScreen(0, 600); xmlname = "listas/lista-fuentes.xml"; fuentes.style.backgroundColor = turquise; break;
-    case 'discos': positionScreen(0, 600); xmlname = "listas/lista-discos.xml"; discosButton.style.backgroundColor = turquise; break;
-    case 'gabinetes': positionScreen(0, 600); xmlname = "listas/lista-gabinetes.xml"; gabinetesButton.style.backgroundColor = turquise; break;
+  switch(tipo){
+    case 'cpu': positionScreen(0, 600); xmlname = "listas/lista-cpu.xml"; cpuButton.style.backgroundColor = orange; break;
+    case 'gpu': positionScreen(0, 600); xmlname = "listas/lista-gpu.xml"; gpuButton.style.backgroundColor = orange; break;
+    case 'mb': positionScreen(0, 600); xmlname = "listas/lista-mb.xml"; mbButton.style.backgroundColor = orange; break;
+    case 'ram': positionScreen(0, 600); xmlname = "listas/lista-ram.xml"; ramButton.style.backgroundColor = orange; break;
+    case 'fuentes': positionScreen(0, 600); xmlname = "listas/lista-fuentes.xml"; fuentes.style.backgroundColor = orange; break;
+    case 'discos': positionScreen(0, 600); xmlname = "listas/lista-discos.xml"; discosButton.style.backgroundColor = orange; break;
+    case 'gabinetes': positionScreen(0, 600); xmlname = "listas/lista-gabinetes.xml"; gabinetesButton.style.backgroundColor = orange; break;
   }
 
   var xmlFile = AbrirFichero(xmlname);
@@ -234,7 +215,6 @@ function AbrirFichero(fichXML){
     imagen.setAttribute("title", modeloXML);
     imagen.setAttribute("style", "width: 150px");
     imagen.setAttribute("style", "height: 150px");
-    //remover los dos ultimos al final de todo
 
     
     var cajaArticle = document.createElement("article");
